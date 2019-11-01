@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+body {
+    background-color: #81cdd1;
+    position: relative;
+    /*Gelecek*/
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+#umumi {
+    position: absolute;
+    /*Gelecek*/
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    left: 50%;
+    /*Gelecek*/
+    top: 50%;
+    /*Gelecek*/
+    transform: translate(-50%, -50%);
+    /*Gelecek*/
+}
+
+#ilk {
+    background-color: #fc6539;
+    border-radius: 5px 5px 0 0;
+}
+
+#ilk h3 {
+    padding: 40px 0;
+    text-align: center;
+    font: 800 1.5em 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #FFF;
+}
+
+#ilk input {
+    width: 100%;
+    height: 70px;
+    background-color: #ba3c24;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font: 400 1.5em 'Open Sans', sans-serif;
+    line-height: 45px;
+    color: #FFF;
+    padding-left: 20px;
+}
+
+#ilk input:nth-child(2) {
+    margin-bottom: 25px;
+}
+
+#ilk input:nth-child(3) {
+    margin-bottom: 50px;
+}
+
+#ilk input::placeholder {
+    color: #FFF;
+}
+
+#son {
+    background-color: #b93b23;
+    border-radius: 0 0 5px 5px;
+}
+
+#son .container {
+    padding: 50px 0;
+}
+
+#son button {
+    border-radius: 5px;
+    background-color: #FFF;
+    font: 400 1.5em 'Open Sans', sans-serif;
+    color: #ba3c24;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 70px;
+}
+
+#son a {
+    line-height: 45px;
+    font: 400 1.5em 'Open Sans', sans-serif;
+    color: #FFF;
+    margin-right: 45px;
+}
